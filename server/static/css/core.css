@@ -1,0 +1,58 @@
+html {
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+  min-height: 100vh;
+  background-color: #1f1f1f;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  height: 100px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ff8672;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item {
+  flex: 1;
+  line-height: 100px;
+  text-align: center;
+  font-size: 24px;
+  color: #ff8672;
+}
+
+.nav-item a:hover {
+  transform: scale(1.1);
+}
+
+button {
+  background-color: red;
+  color: whitesmoke;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #ff8672;
+}

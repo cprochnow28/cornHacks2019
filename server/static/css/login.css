@@ -1,0 +1,39 @@
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  width: 200px;
+  background-color: #ff8672;
+  font-size: 22px;
+  border: 1px solid #1c1c1c;
+  padding: 10px;
+  margin: 5px;
+}
+
+#login {
+  font-size: 22px;
+}
+
+input[type="submit"] {
+  width: 220px;
+  color: #ff8672;
+  background-color: #1c1c1c;
+  border: 1px solid #ff8672;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.text {
+  color: #ff8672;
+}
+
+.spooky-text {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 80px;
+}

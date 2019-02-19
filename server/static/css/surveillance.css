@@ -1,0 +1,42 @@
+.camera {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ff8672;
+  color: whitesmoke;
+  min-height: 50vh;
+  height: 100%;
+  width: 50%;
+  margin-bottom: 10vh;
+  height: 200px;
+}
+
+.floor-plan {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ff8672;
+  color: whitesmoke;
+  min-height: 50vh;
+  height: 100%;
+  width: 50%;
+  margin-bottom: 10vh;
+}
+
+.camera h1 {
+  color: whitesmoke;
+  text-align: center;
+  border-bottom: 1px solid #ff8672;
+}
+
+.feed {
+  color: black;
+  background-color: whitesmoke;
+}
+
+.true {
+  background-color: green;
+}
+
+#camera-feed {
+  max-width: 100%;
+  height: 100%;
+}
